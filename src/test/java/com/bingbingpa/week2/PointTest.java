@@ -31,7 +31,7 @@ class PointTest {
         System.out.println("num1================ " + num1);
         System.out.println("num2================ " + num2);
 
-        // 3*3 2차원 배열 선
+        // 3*3 2차원 배열 선언
         int[][] score = {{1, 2, 3}, {1, 2, 2}, {3, 5, 7}};
 
         System.out.println(score[0][0]);
