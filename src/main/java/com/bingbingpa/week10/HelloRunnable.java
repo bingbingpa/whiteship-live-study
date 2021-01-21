@@ -6,6 +6,7 @@ public class HelloRunnable implements Runnable {
         (new Thread(new HelloRunnable())).start();
     }
 
+    @Override
     public void run() {
         System.out.println("Hello from a thread!");
     }
